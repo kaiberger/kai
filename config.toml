@@ -32,15 +32,15 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, or `dark`.
-  color_theme = "dark"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Kai Berger"
+  role = "Senior Researcher in Visual Data Science"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
