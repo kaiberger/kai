@@ -10,28 +10,40 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
+    "Computer Science",
+    "Graphics",
+    "Vision",
     "Visual Computing"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = " Postdoc"
+  institution = "JPL/CalTech, USA"
+  year = 2017
+
+[[education.courses]]
+  course = " Postdoc"
+  institution = "INRIA, France"
+  year = 2015
+
+[[education.courses]]
+  course = " Postdoc"
+  institution = "University of Oxford, UK"
+  year = 2013
+
+[[education.courses]]
+  course = " PhD in Engineering, Computer Science"
+  institution = "TU Braunschweig, Germany"
   year = 2012
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "MSc in Computer Science"
+  institution = "TU Braunschweig, Germany"
   year = 2008
  
 +++
 
 # Biography
 
-Kai Berger is a senior researcher in visual data science. His research interests include 
+Kai Berger is a senior researcher in visual data science. His research interests include visual computing and temporal and spatial data science. 
