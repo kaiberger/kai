@@ -162,9 +162,9 @@ defaultContentLanguageInSubdir = false
   ]
 
   # Configuration of talk pages.
-  [params.talks]
-    # Show talk time?
-    time = true
+  #[params.talks]
+  #  # Show talk time?
+  #  time = true
 
   # Configuration of publication pages.
   [params.publications]
@@ -173,16 +173,16 @@ defaultContentLanguageInSubdir = false
     date_format = "January, 2006"
 
   # Configuration of project pages.
-  [params.projects]
-    # List publications and talks related to the project?
-    list_children = true
-
-    # Publication list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = APA
-    #   3 = MLA
-    publication_format = 3
+  #[params.projects]
+  #  # List publications and talks related to the project?
+  #  list_children = true
+  #
+  #  # Publication list format.
+  #  #   0 = Simple
+  #  #   1 = Detailed
+  #  #   2 = APA
+  #  #   3 = MLA
+  #  publication_format = 3
 
   # Social/Academic Networking
   #
@@ -241,10 +241,10 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[menu.main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 3
 
 #[[menu.main]]
 #  name = "Projects"
