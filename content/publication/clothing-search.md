@@ -1,9 +1,9 @@
 +++
-title = "Mobile visual clothing search"
+title = "Depth from Stereo Polarization in Specular  Scenes for Urban Robotics "
 date = "2013-07-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen", "MS Nixon"]
+authors = ["K Berger", "R Voorhies", "L Matthies"]
 
 # Publication type.
 # Legend:
@@ -17,12 +17,11 @@ authors = ["GA Cushen", "MS Nixon"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Example.....In *International Conference on Multimedia and Expo Workshops (ICMEW)*, IEEE."
-publication_short = "In *ICMEW*"
+publication = "In *IEEE International Conference on Robotics and Automation (ICRA)*, IEEE."
+publication_short = "In *ICRA*"
 
 # Abstract and optional shortened version.
-abstract = "Example....We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new photo of a person wearing clothing of interest and search for similar clothing in a retail database. From the query image, the person is detected, clothing is segmented, and clothing features are extracted and quantized. The information is sent from the phone client to a server, where the feature vector of the query image is used to retrieve similar clothing products from online databases. The phone's GPS location is used to re-rank results by retail store location. State of the art work focuses primarily on the recognition of a diverse range of clothing offline and pays little attention to practical applications. Evaluated on a challenging dataset, the system is relatively fast and achieves promising results."
-abstract_short = "A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone's GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on."
+abstract = "Abstract: 3-D perception of scenes with specular surfaces is still challenging for robotics applications in urban areas, for both active and passive range sensors; there is a need for improved solutions that work without artificial illumination over a wide range of distances. The advent of cameras with microgrid polarization filter arrays, which allow acquiring four orientations of linearly polarized images simultaneously, has potential to make the use of polarization information in 3-D perception more practical. It is well-known that polarization can provide information about the orientation of specular surfaces; however, prior work with polarization for 3-D perception has had several limitations. We present the first unified formulation of depth perception with stereo and polarization by extending previous energy minimization formulations to include surface orientation constraints computed from the polarization channels. We apply an existing quadratic pseudo-boolean optimization (QPBO) method to approximate the optimal depth map. We use synthetic and real indoor/outdoor images to demonstrate that the new method achieves better results than prior methods, with fewer assumptions and limitations."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -33,22 +32,22 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["example-external-project"]
+#projects = ["example-external-project"]
 
 # Links (optional).
-url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
+url_pdf = "http://ieeexplore.ieee.org/document/7989227/"
+url_preprint = ""
+url_code = ""
+url_dataset = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+url_poster = ""
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://example.org"}]
+#url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Does the content use math formatting?
 math = true
