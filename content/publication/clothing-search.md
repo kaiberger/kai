@@ -1,6 +1,6 @@
 +++
 title = "Depth from Stereo Polarization in Specular  Scenes for Urban Robotics "
-date = "2013-07-01"
+date = "2017-07-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["K Berger", "R Voorhies", "L Matthies"]
