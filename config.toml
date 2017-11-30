@@ -1,5 +1,5 @@
 baseurl = "https://chrberger.github.io/kai/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Senior Researcher Visual Data Science"
+title = "Senior Researcher Visual Computing"
 copyright = "&copy; 2017 Kai Berger"
 theme = "academic"
 enableEmoji = true
@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Kai Berger"
-  role = "Senior Researcher in Visual Data Science"
+  role = "Senior Researcher in Visual Computing"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

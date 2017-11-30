@@ -10,10 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Computer Science",
-    "Graphics",
-    "Vision",
-    "Visual Computing"
+    "Visual Computing",
+    "Computer Vision",
+    "Physics-based Modeling and Rendering (PBR)",
+    "Human Vision-based Perception",
+    "Data Quality Assessment"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -46,4 +47,4 @@ weight = 5
 
 # Biography
 
-Kai Berger is a senior researcher in visual data science. His research interests include visual computing and temporal and spatial data science. 
+Kai Berger is a Post-Doctoral Researcher in Visual Computing for data science. His expertise includes human vision inspired data processing, which ranges from the capturing of spatial and temporal image data to the generation and rendering of virtual imagery. His research intersects the academic fields of computer vision, data aggregation and visualization, physics-based modeling and rendering, human vision-based perception, and data quality assessment.
