@@ -21,10 +21,12 @@
 @inproceedings{LSB+08,
   title={A fast and robust approach to lane marking detection and lane tracking},
   author={Lipski, Christian and Scholz, Bj\"{o}rn and Berger, Kai and Linz, Christian and Stich, Timo and Magnor, Marcus},
-  booktitle={Image Analysis and Interpretation, 2008. SSIAI 2008. IEEE Southwest Symposium on},
+  booktitle={IEEE Southwest Symposium on Image Analysis and Interpretation (SSIAI)},
+  abstract={We present a lane detection algorithm that robustly detects and tracks various lane markings in real-time. The first part is a feature detection algorithm that transforms several input images into a top view perspective and analyzes local histograms. For this part we make use of state-of-the-art graphics hardware. The second part fits a very simple and flexible lane model to these lane marking features. The algorithm was thoroughly tested on an autonomous vehicle that was one of the finalists in the 2007 DARPA Urban Challenge. In combination with other sensors, i.e. a lidar, radar and vision based obstacle detection and surface classification, the autonomous vehicle is able to drive in an urban scenario at up to 15 mp/h.},
   pages={57--60},
   year={2008},
   keywords={MINE,EN,conference,reviewed},
+  url={http://ieeexplore.ieee.org/document/4512284/},
   organization={IEEE}
 }
 
@@ -37,26 +39,32 @@
   pages={2555--2568},
   year={2010},
   keywords={MINE,EN,conference,reviewed},
+  abstract={We present an image-based rendering system to viewpoint-navigate through space and time of complex real-world, dynamic scenes. Our approach accepts unsynchronized, uncalibrated multivideo footage as input. Inexpensive, consumer-grade camcorders suffice to acquire arbitrary scenes, for example in the outdoors, without elaborate recording setup procedures, allowing also for hand-held recordings. Instead of scene depth estimation, layer segmentation or 3D reconstruction, our approach is based on dense image correspondences, treating view interpolation uniformly in space and time: spatial viewpoint navigation, slow motion or freeze-and-rotate effects can all be created in the same way. Acquisition simplification, integration of moving cameras, generalization to difficult scenes and space-time symmetric interpolation amount to a widely applicable virtual video camera system.},
+  url={http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2010.01824.x/pdf},
   organization={Wiley Online Library}
 }
 
 @inproceedings{BRS+11,
-  title={Markerless motion capture using multiple color-depth sensors.},
+  title={Markerless motion capture using multiple color-depth sensors},
   author={Berger, Kai and Ruhl, Kai and Schroeder, Yannic and Bruemmer, Christian and Scholz, Alexander and Magnor, Marcus},
+  abstract={With the advent of the Microsoft Kinect, renewed focus has been put on monocular depth-based motion capturing. However, this approach is limited in that an actor has to move facing the camera. Due to the active light nature of the sensor, no more than one device has been used for motion capturing so far. In effect, any pose estimation must fail for poses occluded to the depth camera. Our work investigates on reducing or mitigating the detrimental effects of multiple active light emitters, thereby allowing motion capture from all angles. We systematically evaluate the concurrent use of one to four Kinects, including calibration, error measures and analysis, and present a time-multiplexing approach.},
   booktitle={VMV},
   pages={317--324},
   keywords={MINE,EN,conference,reviewed},
-  year={2011}
+  year={2011},
+  url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.9939&rep=rep1&type=pdf}
 }
 
 @article{SSB+11,
   title={Multiple kinect studies},
   author={Schr\"{o}der, Yannic and Scholz, Alexander and Berger, Kai and Ruhl, Kai and Guthe, Stefan and Magnor, Marcus},
+  abstract={This project investigates multi-camera setups using Microsoft Kinects. Active structured light from the Kinect is used in several scenarious, including gas flow description, motion capture and free-viewpoint video. While the ability to capture depth alongside color data (RGB-D) is the starting point of the investigations, the structured light is also used more directly. In order to combine Kinects with passive recording approaches, common calibration with HD cameras is also a topic.},
   journal={Computer Graphics},
   volume={2},
   number={4},
   pages={6},
   keywords={MINE,EN,techreport,reviewed},
+  url={https://pdfs.semanticscholar.org/8b58/fce6a54b76ffa1f571d184ec558364c0740e.pdf},
   year={2011}
 }
 
@@ -64,10 +72,12 @@
   title={The area processing unit of Caroline-Finding the way through DARPA's Urban Challenge},
   author={Berger, Kai and Lipski, Christian and Linz, Christian and Stich, Timo and Magnor, Marcus},
   booktitle={International Workshop on Robot Vision},
+  abstract={This paper presents a vision-based color segmentation algorithm suitable for urban environments that separates an image into areas of drivable and non-drivable terrain. Assuming that a part of the image is known to be drivable terrain, other parts of the image are classified by comparing the Euclidean distance of each pixel's color to the mean colors of the drivable area in real-time. Moving the search area depending on each frame's result ensures temporal consistency and coherence. Furthermore, the algorithm classifies artifacts such as white and yellow lane markings and hard shadows as areas of unknown drivability. The algorithm was thoroughly tested on the autonomous vehicle 'Caroline', which was a finalist in the 2007 DARPA Urban Challenge.},
   pages={260--274},
   year={2008},
   keywords={MINE,EN,conference,reviewed},
-  organization={Springer, Berlin, Heidelberg}
+  organization={Springer, Berlin, Heidelberg},
+  url={https://pdfs.semanticscholar.org/4b9d/b808c06635b784ce6c1409603c0487bcd684.pdf}
 }
 
 @article{BBB+08,
@@ -82,41 +92,53 @@
 @inproceedings{BIA+09,
   title={Tomographic 4D Reconstruction of Gas Flows in the Presence of Occluders},
   author={Berger, Kai and Ihrke, Ivo and Atcheson, Bradley and Heidrich, Wolfgang and Magnor, Marcus A and others},
+  abstract={We present a method that allows for reconstructing non-stationary, time-varying gas flows around moving objects. Our work extends the background oriented Schlieren tomography (3D-BOS) acquisition technique to capture gas flows also in the presence of occluding objects. An algorithm is presented that exploits the unique properties of BOS background patterns to robustly segment occluding objects. Numerical issues in the refractive index field reconstruction are addressed and successfully solved by the new method.},
   booktitle={VMV},
   pages={29--36},
-   keywords={MINE,EN,conference,reviewed},
+  keywords={MINE,EN,conference,reviewed},
+  url={https://pdfs.semanticscholar.org/15ea/77d4a88cccc0bb4a43e68e53084fa7ead1c9.pdf},
   year={2009}
 }
 
 @inproceedings{BLL+10a,
   title={A ghosting artifact detector for interpolated image quality assessment},
   author={Berger, Kai and Lipski, Christian and Linz, Christian and Sellent, Anita and Magnor, Marcus},
+  abstract={We present a no-reference image quality metric for image interpolation. The approach is capable of detecting blurry regions as well as ghosting artifacts, e.g., in image based rendering scenarios. Based on the assumption that ghosting artifacts can be detected locally, perceived visual quality can be predicted from the amount of regions that are affected by ghosting. Because the approach does not require any reference image, it is very suitable, e.g., for assessing quality of image-based rendering techniques in general settings.},
   booktitle={IEEE 14th International Symposium on Consumer Electronics (ISCE)},
   pages={1--6},
   year={2010},
-   keywords={MINE,EN,conference,reviewed},
+  keywords={MINE,EN,conference,reviewed},
+  url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.167.1659&rep=rep1&type=pdf},
   organization={IEEE}
 }
 
 @article{BWWM12,
   title={Modeling and verifying the polarizing reflectance of real-world metallic surfaces},
   author={Berger, Kai and Weidlich, Andrea and Wilkie, Alexander and Magnor, Marcus},
+  abstract={Using measurements of real-world samples of metals, the proposed approach verifies predictions of bidirectional reflectance distribution function (BRDF) models. It employs ellipsometry to verify both the actual polarizing effect and the overall reflectance behavior of the metallic surfaces.},
   journal={IEEE computer graphics and applications},
   volume={32},
   number={2},
   pages={24--33},
   year={2012},
-   keywords={MINE,EN,journal,reviewed},
+  keywords={MINE,EN,journal,reviewed},
+  url={https://www.cg.cs.tu-bs.de/upload/publications/cgaBerger.pdf},
   publisher={IEEE}
 }
 
 @article{LBM09,
   title={vIsage-A visualization and debugging framework for distributed system applications},
   author={Lipski, Christian and Berger, Kai and Magnor, Marcus},
+  abstract={We present a Visualization, Simulation, And Graphical debugging Environment (vIsage) for distributed systems. Time-varying spatial data as well as other information from different sources can be displayed and superimposed in a single view at run-time. The main contribution of our framework is that it is not just a tool for visualizing the data, but it is a graphical interface for a simulation environment. Real world data can be recorded, played back or even synthesized. This enables testing and debugging of single components of complex distributed systems. Being the missing link between development, simulation and testing, e.g., in robotics applications, it was designed to significantly increase the efficiency of the software development process.},
+  url={https://pdfs.semanticscholar.org/6a6b/a9c3c1f6979dc3bf59adfb7876b79f26b6be.pdf},
   year={2009},
   keywords={MINE,EN,conference,reviewed},
   publisher={V{\'a}clav Skala-UNION Agency}
 }
+
+
+
+
 
 @article{KABM10,
   title={Real-time gaze tracking with a consumer-grade video camera},

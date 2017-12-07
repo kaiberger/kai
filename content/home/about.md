@@ -47,4 +47,4 @@ weight = 5
 
 # Biography
 
-Kai Berger is a Post-Doctoral Researcher in Visual Computing for data science. His expertise includes human vision inspired data processing, which ranges from the capturing of spatial and temporal image data to the generation and rendering of virtual imagery. His research intersects the academic fields of computer vision, data aggregation and visualization, physics-based modeling and rendering, human vision-based perception, and data quality assessment.
+Kai Berger is a Senior Machine Vision Researcher in Silicon Beach, LA. His expertise includes human vision inspired data processing, which ranges from the capturing of spatial and temporal image data to the generation and rendering of virtual imagery. His research intersects the academic fields of computer vision, data aggregation and visualization, physics-based modeling and rendering, human vision-based perception, and data quality assessment.

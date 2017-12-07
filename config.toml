@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "kai@visual-data-science.org"
+  email = "kai.berger@visual-data-science.org"
   address = "California, 90210, USA"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
@@ -205,7 +205,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:kai@visual-data-science.org"
+    link = "mailto:kai.berger@visual-data-science.org"
 
   #[[params.social]]
   #  icon = "twitter"
