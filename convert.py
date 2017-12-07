@@ -26,6 +26,7 @@ def fixLatexString(input):
    s = s.replace("\\\"{A}", "Ä")
    s = s.replace("\\\"{O}", "Ö")
    s = s.replace("\\\"{U}", "Ü")
+   s = s.replace("\\\'{a}", "á")
    s = s.replace("\\\'{e}", "é")
    s = s.replace("\\\'{o}", "ó")
    s = s.replace("\\\'{u}", "ú")
