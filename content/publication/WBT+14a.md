@@ -13,7 +13,7 @@ selected = false
 url_slides = ""
 url_project = ""
 url_code = ""
-url_pdf = ""
+url_pdf = "https://hal.inria.fr/hal-00993179"
 url_video = ""
 url_dataset = ""
 
